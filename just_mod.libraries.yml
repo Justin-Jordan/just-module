@@ -26,3 +26,10 @@ plumbing_back_to_top:
   css:
     theme:
       layouts/css/plumbing_back_to_top.css: {}
+
+plumbing_bg_fixed:
+  js:
+    layouts/js/plumbing_bg_fixed.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_bg_fixed.css: {}
