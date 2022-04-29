@@ -6,9 +6,16 @@ just_hello:
     theme:
       layouts/css/just_hello.css: {}
 
-service:
+plumbing_service:
   js:
     layouts/js/plumbing_service.js: {}
   css:
     theme:
       layouts/css/plumbing_service.css: {}
+
+plumbing_footer:
+  js:
+    layouts/js/plumbing_footer.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_footer.css: {}
