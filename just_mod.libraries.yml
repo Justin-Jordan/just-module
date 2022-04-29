@@ -1,0 +1,14 @@
+# layout de justin
+just_hello:
+  js:
+    layouts/js/just_hello.js: {}
+  css:
+    theme:
+      layouts/css/just_hello.css: {}
+
+service:
+  js:
+    layouts/js/plumbing_service.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_service.css: {}

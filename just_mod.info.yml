@@ -1,0 +1,6 @@
+name: just_mod
+type: module
+description: A module similar to sparkle module
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

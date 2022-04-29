@@ -1,0 +1,28 @@
+{% if content %}
+	<div {{ attributes.addClass('two-column') }}>
+		{% if content.main %}
+			<div {{ region_attributes.main.addClass('main-region') }}>
+
+				<p class="just">{{ content.main|layout_value }}</p>
+			</div>
+		{% endif %}
+		{% if content.right %}
+			<div {{ region_attributes.right.addClass('right-region') }}>
+				{{ content.right }}
+				<p class="just">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, vero!</p>
+			</div>
+		{% endif %}
+		{% if content.left %}
+			<div {{ region_attributes.left.addClass('left-region') }}>
+				{{ content.left }}
+				<p class="just">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, vero!</p>
+			</div>
+		{% endif %}
+		{% if content.right %}
+			<div {{ region_attributes.down.addClass('down-region') }}>
+				{{ content.down }}
+				<p class="just">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, vero!</p>
+			</div>
+		{% endif %}
+	</div>
+{% endif %}

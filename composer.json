@@ -1,0 +1,23 @@
+{
+    "name": "drupal/just_mod",
+    "description": "A simple module",
+    "type": "drupal-module",
+    "require": {
+        "stephane888/formatage_models": "^3.1"
+    },
+    "require-dev": {
+        "stephane888/formatage_models": "^3.1"
+    },
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Drupal\\JustMod\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Justin",
+            "email": "justinonomo@protonmail.com"
+        }
+    ]
+}
