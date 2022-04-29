@@ -40,3 +40,10 @@ plumbing_last_projects:
   css:
     theme:
       layouts/css/plumbing_last_projects.css: {}
+
+plumbing_help_section:
+  js:
+    layouts/js/plumbing_help_section.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_help_section.css: {}
