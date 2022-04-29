@@ -19,3 +19,10 @@ plumbing_footer:
   css:
     theme:
       layouts/css/plumbing_footer.css: {}
+
+plumbing_back_to_top:
+  js:
+    layouts/js/plumbing_back_to_top.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_back_to_top.css: {}
