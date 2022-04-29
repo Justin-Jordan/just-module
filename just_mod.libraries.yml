@@ -47,3 +47,10 @@ plumbing_help_section:
   css:
     theme:
       layouts/css/plumbing_help_section.css: {}
+
+plumbing_hero:
+  js:
+    layouts/js/plumbing_hero.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_hero.css: {}
