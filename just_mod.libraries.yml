@@ -33,3 +33,10 @@ plumbing_bg_fixed:
   css:
     theme:
       layouts/css/plumbing_bg_fixed.css: {}
+
+plumbing_last_projects:
+  js:
+    layouts/js/plumbing_last_projects.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_last_projects.css: {}
