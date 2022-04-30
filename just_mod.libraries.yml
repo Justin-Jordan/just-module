@@ -75,3 +75,10 @@ plumbing_svg_section:
   css:
     theme:
       layouts/css/plumbing_svg_section.css: {}
+
+plumbing_team_section:
+  js:
+    layouts/js/plumbing_team_section.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_team_section.css: {}
