@@ -68,3 +68,10 @@ plumbing_navbar:
   css:
     theme:
       layouts/css/plumbing_navbar.css: {}
+
+plumbing_svg_section:
+  js:
+    layouts/js/plumbing_svg_section.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_svg_section.css: {}
