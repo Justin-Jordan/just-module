@@ -61,3 +61,10 @@ plumbing_image_left:
   css:
     theme:
       layouts/css/plumbing_hero.css: {}
+
+plumbing_navbar:
+  js:
+    layouts/js/plumbing_navbar.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_navbar.css: {}
