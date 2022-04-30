@@ -14,8 +14,7 @@ use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
  *   category = @Translation("Plumbing Layout"),
  *   path = "layouts/sections",
  *   template = "plumbing_bg_fixed",
- *   library = "just_mod/plumbing_bg_fixed:
-",
+ *   library = "just_mod/plumbing_bg_fixed",
  * )
  */
 class PlumbingBgFixed extends FormatageModelsSection

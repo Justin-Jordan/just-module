@@ -9,15 +9,15 @@ use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
  * A very advanced custom layout.
  *
  * @Layout(
- *   id = "plumbing_last_projects_section",
- *   label = @Translation("Plumbing last projects section"),
+ *   id = "plumbing_image_left_section",
+ *   label = @Translation("Plumbing image left section"),
  *   category = @Translation("Plumbing Layout"),
  *   path = "layouts/sections",
- *   template = "plumbing_last_projects",
- *   library = "just_mod/plumbing_last_projects",
+ *   template = "plumbing_image_left",
+ *   library = "just_mod/plumbing_image_left",
  * )
  */
-class PlumbingLastProjects extends FormatageModelsSection
+class PlumbingImageLeft extends FormatageModelsSection
 {
     /**
      *

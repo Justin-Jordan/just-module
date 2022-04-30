@@ -54,3 +54,10 @@ plumbing_hero:
   css:
     theme:
       layouts/css/plumbing_hero.css: {}
+
+plumbing_image_left:
+  js:
+    layouts/js/plumbing_hero.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_hero.css: {}

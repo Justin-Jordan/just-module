@@ -14,8 +14,7 @@ use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
  *   category = @Translation("Plumbing Layout"),
  *   path = "layouts/sections",
  *   template = "plumbing_help_section",
- *   library = "just_mod/plumbing_help_section:
-",
+ *   library = "just_mod/plumbing_help_section",
  * )
  */
 class PlumbingHelpSection extends FormatageModelsSection
