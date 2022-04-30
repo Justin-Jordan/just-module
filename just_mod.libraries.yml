@@ -82,3 +82,10 @@ plumbing_team_section:
   css:
     theme:
       layouts/css/plumbing_team_section.css: {}
+
+plumbing_why_us:
+  js:
+    layouts/js/plumbing_why_us.js: {}
+  css:
+    theme:
+      layouts/css/plumbing_why_us.css: {}
