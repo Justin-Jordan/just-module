@@ -2,14 +2,12 @@
 <section class="bg-fixed-plumbing">
       <div class="bfp-content container">
             <div class="left-bloc">
-                  <h3 class="left-bloc__h3">Free estimates are provided for work that would be
-                        more involved than a service call.</h3>
-                  <h2 class="left-bloc__h2">Remodeling, Replacing water
-                        or sewer lines, Replacing Fixtures, etc.</h2>
+                  <h3 class="left-bloc__h3">{{ content.title }}</h3>
+                  <h2 class="left-bloc__h2">{{ content.subTitle }}</h2>
                   <div class="left-bloc__btn">
-                        <button class="btn-lg lm-btn lm-btn-big"><a href="#">request an estimate</a></button>
+                        <button class="btn-lg lm-btn lm-btn-big">{{ content.callToAction }}</button>
                   </div>
             </div>
       </div>
 </section>
-<!-- End bg-fixed -->
+<!-- End bg-fixed -->   
