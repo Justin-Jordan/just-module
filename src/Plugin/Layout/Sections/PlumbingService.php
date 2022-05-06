@@ -55,7 +55,7 @@ class PlumbingService extends FormatageModelsSection
               ]
             ],
             'description' => [
-              'text_hml' => [
+              'text_html' => [
                 'label' => 'description',
                 'value' => "<p>
                 No job is too large for us! Commercial properties need professional plumbers

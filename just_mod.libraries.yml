@@ -89,3 +89,10 @@ plumbing_why_us:
   css:
     theme:
       layouts/css/plumbing_why_us.css: {}
+
+f_news_finance:
+  js:
+    layouts/js/f_news_finance.js: {}
+  css:
+    theme:
+      layouts/css/f_news_finance.css: {}

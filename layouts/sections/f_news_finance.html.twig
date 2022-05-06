@@ -1,0 +1,99 @@
+<section {{ attributes.addClass('tech-stories-section-handler') }}>
+    {% if content.mainTitle %}
+    <h3 class="section-title text-center ">{{ content.mainTitle }}</h3>
+    {% endif %}
+    <div class="container">
+        <div class="stories-handler row gap-4">
+            <div class="single-story col-lg-4 col-md-5 ">
+                {% if content.date %}
+                <div {{ region_attributes.date.addClass('created-date') }}>
+                    <p>{{ content.date }}</p>
+                </div>
+                {% endif %}
+                {% if content.title %}
+                <div {{ region_attributes.title.addClass('story-title') }}>
+                    {{ content.title }}
+                </div>
+                {% endif %}
+                <div class="story">
+                    {% if content.description %}
+                    {{ content.description }}
+                    {% endif %}
+                    <div class="pub-info d-flex">
+                    {% if content.authorImage %}
+                        <div {{ region_attributes.authorImage.addClass('img-profile') }}>
+                            {{ content.authorImage }}
+                        </div>
+                    {% endif %}
+                    {% if content.authorRole %}
+                        <div {{ region_attributes.authorRole.addClass('role') }}>
+                            <p>
+                               {{ content.authorRole }}
+                            </p>
+                        </div>
+                    {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-story col-lg-4 col-md-5 ">
+                <div class="created-date">
+                    <p>Apr 30, 2020</p>
+                </div>
+                <div class="story-title">
+                    <a href="#" class="link">Stunning photos of our universe</a>
+                </div>
+                <div class="story">
+                    <p>
+                        A tellus risus dis. Orci sagittis sociosqu senectus est facilisis est facilisis neque rutrum
+                        dapibus!
+                    </p>
+                    <div class="pub-info d-flex">
+                        <div class="img-profile">
+                            <img class="img"
+                                 src="https://demo.morethanthemes.com/flashyplus-news8/default/sites/default/files/styles/thumbnail/public/pictures/2019-08/avatar_0.jpg?itok=QV437nlh"
+                                 alt="">
+                        </div>
+                        <div class="role">
+                            <p>
+                                Admin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-story col-lg-4 col-md-5 ">
+                <div class="created-date">
+                    <p>Apr 30, 2020</p>
+                </div>
+                <div class="story-title">
+                    <a href="#" class="link">Stunning photos of our universe</a>
+                </div>
+                <div class="story">
+                    <p>
+                        A tellus risus dis. Orci sagittis sociosqu senectus est facilisis est facilisis neque rutrum
+                        dapibus!
+                    </p>
+                    <div class="pub-info d-flex">
+                        <div class="img-profile">
+                            <img class="img"
+                                 src="https://demo.morethanthemes.com/flashyplus-news8/default/sites/default/files/styles/thumbnail/public/pictures/2019-08/avatar_0.jpg?itok=QV437nlh"
+                                 alt="">
+                        </div>
+                        <div class="role">
+                            <p>
+                                Admin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if content.more %}
+    <div {{ region_attributes.more.addClass('more-link') }} >
+        {{ content.more }}
+    </div>
+    {% endif %}
+</section>
