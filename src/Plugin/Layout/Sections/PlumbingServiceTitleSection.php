@@ -10,26 +10,23 @@ use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
  * A very advanced custom layout.
  *
  * @Layout(
- *   id = "plumbing_service_section",
- *   label = @Translation("Plumbing service section"),
+ *   id = "plumbing_service_title_section",
+ *   label = @Translation("Plumbing service title section"),
  *   category = @Translation("Plumbing Layout"),
  *   path = "layouts/sections",
- *   template = "plumbing_service",
+ *   template = "plumbing_service_section_title",
  *   library = "just_mod/plumbing_service",
  *   regions = {
  *     "title" = {
- *       "label" = @Translation("title of the service")
+ *       "label" = @Translation("Service title"),
  *     },
- *     "description" = {
- *       "label" = @Translation("Description of the service")
- *     },
- *     "readmore" = {
- *       "label" = @Translation("read more about the service")
+ *     "subTitle" = {
+ *       "label" = @Translation("Service subtitle")
  *     },
  *   }
  * )
  */
-class PlumbingService extends FormatageModelsSection
+class PlumbingServiceTitleSection extends FormatageModelsSection
 {
     public function build(array $regions)
     {
@@ -51,27 +48,16 @@ class PlumbingService extends FormatageModelsSection
             'title' => [
               'text' => [
                 'label' => 'Title',
-                'value' => "commercial Services "
+                'value' => "our services"
               ]
             ],
-            'description' => [
-              'text_hml' => [
-                'label' => 'description',
-                'value' => "<p>
-                No job is too large for us! Commercial properties need professional plumbers
-                                                          in any case…</p>"
+            'descrtiption' => [
+              'text_html' => [
+                'label' => 'Sub title',
+                'value' => '<p class="card-text">
+                No job is too large for us! Commercial properties need professional plumbersin any case…</p>'
               ]
             ],
-            'readmore' => [
-                'url' => [
-                    'label' => 'read more',
-                    'value' => [
-                        'link' => '#',
-                        'text' => 'request a plomber',
-                        'class' => 'btn lm-btn lm-btn-noir'
-                    ]
-                ]
-            ]
           ]
         ]
       ];
