@@ -1,0 +1,150 @@
+<section attributes.addClass('featured-section-handler')>
+
+    {% if content %}
+    <h2 class="section-title">{{ content.title }}</h2>
+    {% endif %}
+
+    {% if content %}
+    <h4 class="section-sub-title">{{ content.subTitle }}</h4>
+    {% endif %}
+
+    <div class="container">
+        <div class="featured-cards-handler row">
+            <div class="col-12 col-lg-4 col-md-4 col-sm-9 element ">
+                <div class="featured-single-card">
+                {% if content %}
+                    <div {{ region_attributes.image.addClass('img-handler') }}>
+
+                        {{ content.image }}
+                    </div>
+                {% endif %}
+                {% if content %}
+                    <div {{ region_attributes.pubInfo.addClass('pub-info') }} class="pub-info">
+                        <p>
+                            {{ content.pubInfo }}
+                        </p>
+                    </div>
+                {% endif %}
+                {% if content %}
+                    <div {{ region_attributes.descriptor.addClass('card-text-descriptor') }}>
+                        {{ content.descriptor }}
+                    </div>
+                {% endif %}
+                {% if content %}
+                    <div {{ region_attributes.authorRole.addClass('role') }}>
+                        <p>{{ content.authorRole }}</p>
+                    </div>
+                {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-9 element ">
+                <div class="featured-single-card">
+                    <div class="img-handler">
+                        <a href="#" class="img-sup"><img class="card-img"
+                                 src="https://demo.morethanthemes.com/flashyplus-news8/default/sites/default/files/styles/mt_large/public/2019-07/mt-post-1.jpg?itok=x-wn5ZOy"
+                                 alt=""></a>
+                    </div>
+                    <div class="pub-info">
+                        <p>
+                            Apr 30, 2020 / Health
+                        </p>
+                    </div>
+                    <div class="card-text-descriptor">
+                        <a href="">Things that can help to boost your immune system</a>
+                    </div>
+                    <div class="role">
+                        <p>Admin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-9 element ">
+                <div class="featured-single-card">
+                    <div class="img-handler">
+                        <a href="#" class="img-sup"><img class="card-img"
+                                 src="https://demo.morethanthemes.com/flashyplus-news8/default/sites/default/files/styles/mt_large/public/2019-07/mt-post-4.jpg?itok=nvAVqEqg"
+                                 alt=""></a>
+                    </div>
+                    <div class="pub-info">
+                        <p>
+                            Apr 30, 2020 / Health
+                        </p>
+                    </div>
+                    <div class="card-text-descriptor">
+                        <a href="">Things that can help to boost your immune system</a>
+                    </div>
+                    <div class="role">
+                        <p>Admin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-9 element ">
+                <div class="featured-single-card">
+                    <div class="img-handler">
+                        <a href="#" class="img-sup"> <img class="card-img"
+                                 src="https://demo.morethanthemes.com/flashyplus-news8/default/sites/default/files/styles/mt_large/public/2019-07/mt-post-6.jpg?itok=Psxw5xd0"
+                                 alt=""></a>
+                    </div>
+                    <div class="pub-info">
+                        <p>
+                            Apr 30, 2020 / Health
+                        </p>
+                    </div>
+                    <div class="card-text-descriptor">
+                        <a href="">Things that can help to boost your immune system</a>
+                    </div>
+                    <div class="role">
+                        <p>Admin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-9 element ">
+                <div class="featured-single-card">
+                    <div class="img-handler">
+                        <a href="#" class="img-sup"><img class="card-img"
+                                 src="https://demo.morethanthemes.com/flashyplus-news8/default/sites/default/files/styles/mt_large/public/2019-07/mt-post-7.jpg?itok=t5wg39BW"
+                                 alt=""></a>
+                    </div>
+                    <div class="pub-info">
+                        <p>
+                            Apr 30, 2020 / Health
+                        </p>
+                    </div>
+                    <div class="card-text-descriptor">
+                        <a href="">Things that can help to boost your immune system</a>
+                    </div>
+                    <div class="role">
+                        <p>Admin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-9 element ">
+                <div class="featured-single-card">
+                    <div class="img-handler">
+                        <a href="#" class="img-sup"><img class="card-img"
+                                 src="https://demo.morethanthemes.com/flashyplus-news8/default/sites/default/files/styles/mt_large/public/2019-07/mt-post-8.jpg?itok=RvLie9tY"
+                                 alt=""></a>
+                    </div>
+                    <div class="pub-info">
+                        <p>
+                            Apr 30, 2020 / Health
+                        </p>
+                    </div>
+                    <div class="card-text-descriptor">
+                        <a href="">Things that can help to boost your immune system</a>
+                    </div>
+                    <div class="role">
+                        <p>Admin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    {% if content %}
+    <div {{ region_attributes.more.addClass('more-link ') }}>
+        {{ content.more }}
+    </div>
+    {% endif %}
+
+</section>

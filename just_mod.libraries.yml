@@ -96,3 +96,10 @@ f_news_finance:
   css:
     theme:
       layouts/css/f_news_finance.css: {}
+
+f-news-featured:
+  js:
+    layouts/js/f-news-featured-section.js: {}
+  css:
+    theme:
+      layouts/css/f-news-featured-section.css: {}
